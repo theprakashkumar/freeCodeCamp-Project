@@ -13,8 +13,7 @@ fetch('https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/maste
 
 		const svg=container.append("svg").attr("width", w).attr("height", h);
 
-		const graph=svg.append("g").attr("width", graphWidth).attr("height", graphHeight).attr('transform', `translate(${margin.left}, ${margin.top})`)
-		console.log(dataset);
+		const graph=svg.append("g").attr("width", graphWidth).attr("height", graphHeight).attr('transform', `translate(${margin.left}, ${margin.top})`);
 
 		//Formate for minute.
 		function timeConversion(){
