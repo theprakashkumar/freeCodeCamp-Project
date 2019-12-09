@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Roboto+Mono:400,500,700|Spirax');
+
+body{
+	margin: 0;
+}
+
+/*Navbar*/
+
+#navbar{
+	background: #a6dcdd;
+	width: 100%;
+	height: 7vh;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 19px;
+	position: fixed;
+	top: 0;
+}
+
+#work{
+	margin-left: 90px;
+	margin-right: 90px;
+}
+
+#contact{
+	margin-right: 50px;
+}
+
+nav a{
+	text-decoration: none;
+	color: #015354;
+}
+
+/*About Section*/
+
+#welcome-section{
+	margin-top: 7vh;
+	height: 100vh;
+	width: 100%;
+	background: #a6dcdd;
+	width: 100%;
+}
+
+#welcome-section h1{
+	padding-top: 42vh;
+	margin-bottom: 0;
+	font-family: 'Spirax', cursive;
+	text-align: center;
+	color: #015354
+}
+
+#welcome-section h3{
+	font-family: 'Roboto Mono', monospace;
+	font-size: 15px;
+	text-align: center;
+	margin: 0;
+}
+
+/*Project*/
+
+#project-list{
+	width: 100%;
+	display: grid;
+	grid-template: repeat(2, 230px) / repeat(5, 1fr) ;
+	grid-row-gap: 50px;
+}
+
+#first{
+	grid-column: 2 / 3; 
+	grid-row: 1 / 2;
+}
+
+#second{
+	grid-column: 4 / 5; 
+	grid-row: 1 / 2;
+}
+
+#third{
+	grid-column: 2 / 3; 
+	grid-row: 2 / 3;
+}
+
+#fourth{  
+	grid-column: 4 / 5; 
+	grid-row: 2 / 3;
+}
+
+img{
+	width: 300px; 
+	height: 180px;
+	align-self: center;
+	padding-top: 2.5px;
+}
+
+#projects h2{
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 30px;
+	font-family: 'Inconsolata', monospace;
+	color: #015354;
+}
+
+.project p{
+	font-family: 'Inconsolata', monospace;
+	width: 300px;
+	border-top: 2px solid #a6dcdd;
+	text-align: center;
+	color: #015354;
+	margin: 0;
+	font-size: 20px;
+	padding-top: 5px;
+	font-weight: 600;
+}
+
+.project{
+	border: 2px solid #a6dcdd;
+	margin-bottom: 5px;
+	width: 300px;
+}
+
+#button{
+	display: block;
+	margin: 35px auto 50px auto;
+	background: white;
+	border: 2px solid #a6dcdd;
+	width: 200px;
+	height: 30px;
+	color: #015354;
+	font-weight: 600;
+	font-size: 20px;
+	font-family: 'Inconsolata', monospace;
+	/*For changing cursor.*/
+	cursor: pointer;
+	border-radius: 10px;
+	text-decoration: none;
+	text-align: center;
+	padding-top: 10px;	
+}
+
+.project a{
+	text-decoration: none;
+}
+
+/*Contact Details*/
+
+#contact-footer{
+	background: #c0e5cb;
+	height: 70vh;
+}
+
+#contact-footer h1{
+	font-family: 'Spirax', cursive;
+	padding-top: 22vh;
+	text-align: center;
+}
+
+i{
+	font-size: 50px;
+	color: black;
+}
+
+#contact-link{
+	margin: 4vh auto 18vh auto;
+	display: flex;
+	justify-content: space-around;
+	max-width: 800px;
+}
+
+/*Footer*/
+
+#footer{
+	height: 15vh;
+	background: #59825e;
+	margin: 0;
+}
+
+#footer p:nth-of-type(1){
+	text-align: center;
+	margin: 0;
+	padding-top: 4vh; 
+	color: white;
+}
+
+#footer p:nth-of-type(2){
+	text-align: center;
+	font-family: 'Roboto Mono', monospace;
+	color: white;
+}
+
+#footer a{
+	text-decoration: none;
+	color: darkgreen;
+}
+
+/*@media*/
+
+@media (max-width: 700px){
+	#project-list{
+		grid-template: repeat(4, 230px) / auto 310px auto;
+		grid-row-gap: 50px;
+	}
+
+	#first{
+		grid-column: 2 / 3; 
+		grid-row: 1 / 2;
+	}
+
+	#second{
+		grid-column: 2 / 3; 
+		grid-row: 2 / 3;
+	}
+
+	#third{
+		grid-column: 2 / 3; 
+		grid-row: 3 / 4;
+	}
+
+	#fourth{  
+		grid-column: 2 / 3; 
+		grid-row: 4 / 5;
+	}
+
+	i{
+		font-size: 40px;
+	}
+	}
+
+@media (max-width: 450px){
+	#navbar{
+		width: 100%;
+		justify-content: center;
+		font-size: 19px;
+	}
+
+	#work{
+		margin-left: 25px;
+		margin-right: 25px;
+	}
+
+	#contact{
+		margin-right: 0;
+	}
+
+	i{
+		font-size:  35px;
+	}
+}
+
+@media (max-width: 330px){
+	#project-list{
+		grid-template: repeat(4, 200px) / auto 255px auto;
+	}
+
+	img{
+		max-width: 250px; 
+		max-height: 150px;
+	}
+
+	.project p{
+		max-width: 250px;
+	}	
+
+	.project{
+		border: 2px solid #a6dcdd;
+		margin-bottom: 5px;
+		max-width: 250px;
+	}
+
+	#contact-footer h1{
+		padding-top: 8vh;
+	}
+
+	#contact-link{
+		margin: 4vh auto 18vh auto;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	i{
+		margin: 5px;
+	}
+}
