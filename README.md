@@ -6,7 +6,7 @@ Certification Project of freeCodeCamp
 * Build a Survey Form
 * Build a Product Landing Page
 * Build a Technical Documentation Page
-* [Build a Personal Portfolio Webpag](https://codepen.io/ThePrakashKumar/full/vaGBmE)
+* [Build a Personal Portfolio Webpage](https://codepen.io/ThePrakashKumar/full/vaGBmE)
 
 **Data Visualization Projects**
 * [Visualize Data with a Bar Chart](https://codepen.io/ThePrakashKumar/full/ExxovZL)
