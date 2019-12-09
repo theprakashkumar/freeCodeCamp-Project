@@ -2,11 +2,11 @@
 Certification Project of freeCodeCamp
 
 **Responsive Web Design Projects**
-* Build a Tribute Page
-* Build a Survey Form
-* Build a Product Landing Page
-* Build a Technical Documentation Page
-* [Build a Personal Portfolio Webpage](https://codepen.io/ThePrakashKumar/full/vaGBmE)
+* Tribute Page
+* Survey Form
+* Product Landing Page
+* Technical Documentation Page
+* [Personal Portfolio Webpage](https://codepen.io/ThePrakashKumar/full/vaGBmE)
 
 **Data Visualization Projects**
 * [Visualize Data with a Bar Chart](https://codepen.io/ThePrakashKumar/full/ExxovZL)
