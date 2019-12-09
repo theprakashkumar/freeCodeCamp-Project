@@ -7,3 +7,10 @@ Certification Project of freeCodeCamp
 * Visualize Data with a Heat Map
 * Visualize Data with a Choropleth Map
 * Visualize Data with a Treemap Diagram
+
+**Responsive Web Design Projects**
+* Build a Tribute Page
+* Build a Survey Form
+* Build a Product Landing Page
+* Build a Technical Documentation Page
+* [Build a Personal Portfolio Webpag](https://codepen.io/ThePrakashKumar/full/vaGBmE)
