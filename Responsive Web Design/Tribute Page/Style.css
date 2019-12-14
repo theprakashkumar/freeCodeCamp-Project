@@ -1,0 +1,50 @@
+body{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+#main{
+	background: #e0e2e1;
+	margin: 20px auto;
+	border-radius: 8px;
+}
+
+#title{
+	font-family: 'Spirax', cursive;
+	padding: 8px;
+}
+
+#img-div{
+	background: #ffffff;
+	margin: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-radius: 8px;
+}
+
+#image{
+	/*Look of max-width*/
+	max-width: 100%;
+	display: block;
+	margin: auto;
+	padding-top: 5px;
+	height: auto;
+	/*To make image balck and white.*/
+	filter: grayscale(100%);
+	border-radius: 8px;
+}
+
+#img-caption{
+	margin: 4px;
+	padding: 4px;
+}
+
+ul{
+  max-width:550px;
+  margin:0 auto;
+  text-align:left;
+}
+
+footer{
+	padding-bottom: 8px;
+}
