@@ -2,7 +2,7 @@
 Certification Project of freeCodeCamp
 
 **Responsive Web Design Projects**
-* Tribute Page
+* [Tribute Page](https://codepen.io/ThePrakashKumar/full/LrwGPZ)
 * Survey Form
 * Product Landing Page
 * Technical Documentation Page
