@@ -9,16 +9,20 @@ body{
 }
 
 h1, h3{
-    color: #4b5320;
+    color: #3DC8F0;
 }
 
 h1{
-    margin-top: 40px;
+    margin-top: 30px;
     margin-bottom: 0;
 }
 
 h3{
-    margin-top: 15px;
+    margin-top: 12px;
+}
+
+.cell:hover{
+    stroke: white;  
 }
 
 #tooltip {  
