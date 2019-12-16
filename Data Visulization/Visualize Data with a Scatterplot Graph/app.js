@@ -15,7 +15,7 @@ fetch('https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/maste
 
 		const graph=svg.append("g").attr("width", graphWidth).attr("height", graphHeight).attr('transform', `translate(${margin.left}, ${margin.top})`);
 
-		//Formate for minute.
+		//Format for minute.
 		function timeConversion(){
 			dataset.forEach((d) => {
 				var parsedTime = d.Time.split(':');
@@ -76,7 +76,7 @@ fetch('https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/maste
 
         circle.transition().duration(900).attr("r", "7");
 
-	const xAxis=d3.axisBottom(xScale).tickFormat(d3.format("d"));
+		const xAxis=d3.axisBottom(xScale).tickFormat(d3.format("d"));
         const yAxis=d3.axisLeft(yScale).tickFormat(formatTime);
         xAxisGroup.call(xAxis);
         yAxisGroup.call(yAxis);
@@ -94,7 +94,7 @@ fetch('https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/maste
 	        .text("Year")
 	        .attr("class", "axes-text");
 
-	  	// Create the legend
+	  	//Legend
 	  	const legend = graph.append("g").attr("id", "legend");
 	  	
 	  	legend.append("rect")
