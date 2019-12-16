@@ -76,7 +76,7 @@ fetch('https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/maste
 
         circle.transition().duration(900).attr("r", "7");
 
-		const xAxis=d3.axisBottom(xScale).tickFormat(d3.format("d"));
+	const xAxis=d3.axisBottom(xScale).tickFormat(d3.format("d"));
         const yAxis=d3.axisLeft(yScale).tickFormat(formatTime);
         xAxisGroup.call(xAxis);
         yAxisGroup.call(yAxis);
