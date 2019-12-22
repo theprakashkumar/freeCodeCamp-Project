@@ -12,5 +12,5 @@ Certification Project of freeCodeCamp
 * [Visualize Data with a Bar Chart](https://codepen.io/ThePrakashKumar/full/ExxovZL)
 * [Visualize Data with a Scatterplot Graph](https://codepen.io/ThePrakashKumar/full/eYmOQKG)
 * [Visualize Data with a Heat Map](https://codepen.io/ThePrakashKumar/full/eYmBWNO)
-* Visualize Data with a Choropleth Map
+* [Visualize Data with a Choropleth Map](https://codepen.io/ThePrakashKumar/full/gObmXqy)
 * Visualize Data with a Treemap Diagram
