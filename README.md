@@ -13,4 +13,11 @@ Certification Project of freeCodeCamp
 * [Visualize Data with a Scatterplot Graph](https://codepen.io/ThePrakashKumar/full/eYmOQKG)
 * [Visualize Data with a Heat Map](https://codepen.io/ThePrakashKumar/full/eYmBWNO)
 * [Visualize Data with a Choropleth Map](https://codepen.io/ThePrakashKumar/full/gObmXqy)
-* Visualize Data with a Treemap Diagram
+* [Visualize Data with a Treemap Diagram](https://codepen.io/ThePrakashKumar/full/MWYOaeV)
+
+**APIs and Microservices Projects**
+* Timestamp Microservice
+* Request Header Parser Microservice
+* URL Shortener Microservice
+* Exercise Tracker
+* File Metadata Microservice
