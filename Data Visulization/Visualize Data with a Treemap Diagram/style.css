@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: rgb(247, 247, 247);
+    width:100%;
+    height:100%;
+    overflow:hidden;
+}
+
+#main{
+    text-align: center;
+}
+
+svg{
+    position:relative;
+    display:block;
+    margin: auto;
+}
+
+#graph{
+    display: block;
+    margin-left: 50px;
+}
+
+h1{
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+h3{
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+#tooltip{  
+    position: absolute;         
+    text-align: center;                             
+    font: 15px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;       
+    background: black;
+    width: auto;                  
+    height: auto; 
+    padding: 10px 10px 10px 10px;   
+    border: 0px;                            
+}
+
+.button-normal{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    border: 1.5px solid black;
+    padding: 7px 18px;
+    border-radius: 3px;
+    margin: 10px;
+    font-weight: 600;
+}
+
+.button-normal:hover{
+    background: white;
+    outline: none;
+}
+
+.button-selected{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    border: 1.5px solid black;
+    padding: 7px 18px;
+    border-radius: 3px;
+    background: black;
+    margin: 10px;
+    outline: none;
+    font-weight: 600;
+}
