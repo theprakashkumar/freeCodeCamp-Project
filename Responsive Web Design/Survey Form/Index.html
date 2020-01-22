@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FCC:Survey Form</title>
+	<link rel="stylesheet" type="text/css" href="Style.css">
+	<link rel="icon" href="https://www.keepitoff.com/wp-content/uploads/2017/02/monitoring-form-icon.png">
+</head>
+<body>
+<h1 id="title">Survey Form</h1>
+<form id="survey-form" method="GET" action="https://crossorigin.me/https://freecodecamp.com">
+	<p id="description">Let us know how we can improve freeCodeCamp</p>
+	<label for="name" id="name-label" class="one"><span class="red">*</span> Name: </label>
+	<div class="right">
+		<input type="text" name="name" id="name" placeholder="Enter your name" required>
+	</div>
+	<label for="email" id="email-label"><span class="red">*</span> Email: </label>
+	<div class="right">
+		<input type="email" name="email" id="email" placeholder="Enter your Email" required>
+	</div>
+	<label for="number" id="number-label"><span class="red">*</span> Age: </label>
+	<div class="right">
+		<input type="number" name="age" id="number" placeholder="Age" min="1" max="125" required>
+	</div>
+	<label for="dropdown" id="dropdown-label">Which option best describes your current role?</label>
+	<div class="right">
+		<select id="dropdown">
+			<option disabled selected>Select an option</option>
+    	    <option value="Student">Student</option>
+    	    <option value="job">Full Time Job</option>
+    	    <option value="only-learning">Full Time Lerner</option>
+    	    <option value="prefer-not">Prefer not to say</option>
+    	    <option value="other">Other</option>
+        </select>
+	</div>
+    <fieldset>
+	    <legend><span class="red">*</span> How likely is that you would recommend freeCodeCamp to a friend:</legend>
+	    <div class="right">
+	    	<label for="definitely"><input type="radio" name="recommendation" id="definitely" value="yes">Definitely</label><br>
+	    	<label for="maybe"><input type="radio" name="recommendation" id="maybe" value="probably">Maybe</label><br>
+	    	<label for="not-sure"><input type="radio" name="recommendation" id="not-sure" value="no">Not Sure</label>
+	    </div>
+    </fieldset>
+    <label for="dropdown-2" id="dropdown-2-label">What do you like most in FCC:</label>
+    <div class="right">
+    	<select id="dropdown-2">
+    		<option disabled selected>Select an option</option>
+    		<option value="challenges">Challenge</option>
+    		<option value="project">Project</option>
+    		<option value="community">Community</option>
+    		<option value="open-source">Open Source</option>
+        </select>
+    </div>
+    <fieldset>
+	    <legend>Things that should be improved in the future(Check all that apply):</legend>
+	    <div class="right">
+	    		<label for="font-end-projects"><input type="checkbox" name="things-to-imporve" id="font-end-projects" value="font-end-projects">Front-end Projects</label><br>
+				<label for="back-end-projects"><input type="checkbox" name="things-to-imporve" id="back-end-projects" value="back-end-projects">Back-end Projects</label><br>
+				<label for="data-visualization"><input type="checkbox" name="things-to-imporve" id="data-visualization" value="data-visualization">Data Visualization</label><br>
+				<label for="challenges" class="level1"><input type="checkbox" name="things-to-imporve" id="challenges" value="challenges">Challenge</label><br>
+				<label for="glitter-help-rooms"><input type="checkbox" name="things-to-imporve" id="glitter-help-rooms" value="glitter-help-rooms">Glitter help rooms</label><br>
+				<label for="videos" class="level1"><input type="checkbox" name="things-to-imporve" id="videos" value="videos">Videos</label><br>
+				<label for="city-meetups"><input type="checkbox" name="things-to-imporve" id="city-meetups" value="city-meetups">City Meetups</label><br>
+				<label for="wiki"><input type="checkbox" name="things-to-imporve" id="wiki" value="wiki">Wiki</label><br>
+				<label for="forum"><input type="checkbox" name="things-to-imporve" id="forum" value="forum">Forum</label><br>
+				<label for="additional-course"><input type="checkbox" name="things-to-imporve" id="additional-course" value="additional-course">Additional Courses</label>
+	    </div>			
+    </fieldset>
+    <label for="textarea" id="textarea-label">Any Comments or Suggestions?</label>
+    <div class="right">
+    	<textarea id="textarea" placeholder="Enter your comment here..."></textarea>
+    </div>
+    <button id="submit">Submit</button>
+</form>
+<script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script>
+<script  src="js/index.js"></script>
+</body>
+</html>

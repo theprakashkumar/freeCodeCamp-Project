@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,800|Song+Myung');
+
+body{
+	background: #97d8bc;
+	font-family: 'Song Myung', serif;
+	font-size: 19px;
+}
+
+form{
+	background: #fff;
+	width: 75%;
+	max-width: 920px;
+	margin: auto auto;
+	border: 10px white solid;
+	border-radius: 5px;
+}
+
+#title{
+	text-align: center;
+	font-family: 'Song Myung', serif;
+	font-size: 3em;
+}
+
+#description{
+	text-align: center;
+}
+
+label{
+	display: inline-block;
+	width: 40%;
+	text-align: right;
+	vertical-align: top;
+	padding: 3px;
+}
+
+fieldset{
+	border: 0;
+}
+
+.right{
+	display: inline-block;
+	width: 58%;
+	text-align: left;
+	position: relative;
+	left: 15px;
+}
+
+legend{
+	float: left;
+	width: 40%;
+	text-align: right;
+	position: relative;
+	right: 5px;
+	padding: 3px;
+
+}
+
+.red{
+	color: red;
+}
+
+/*This one will be more specific.*/
+.right label{
+	display: inline-block;
+	text-align: left;
+	vertical-align: top;
+	width: 58%;
+	position: relative;
+	right: 8px;
+	left: -3px;
+	padding: 2px;
+}
+
+[type="text"],[type="number"],[type="email"]{
+  height: 15px;
+  max-width: 230px;
+  padding: 5px;
+  margin: 5px 2px;
+  border: 1px solid #97d8bc;
+  border-radius: 3px;
+}
+
+select{
+	height: 25px;
+	width: 150px;
+	margin: 5px;
+	margin-left: 2px;
+	border: 1px solid #97d8bc;
+	border-radius: 3px;
+}
+/*Not working.*/
+input[type="radio"]{
+	border: 10px solid yellow;
+}
+
+textarea{
+	height: 62px;
+	width: 200px;
+	position: relative;
+	top: 6px;
+	right: 2px;
+	border: 1px solid #97d8bc;
+	border-radius: 3px;
+}
+
+button{
+	display: block;
+	margin: 0 auto;
+	background: #97d8bc;
+	margin: 20px auto;
+	width: 100px;
+	height: 2em;
+	border: 1px solid #c0c0c0;
+	border-radius: 3px;
+}
+
+@media screen and (max-width: 720px){
+	.right{
+		width: 40%;
+	}
+	.right label{
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 520px){
+	label{
+		width: 100%;
+		text-align: left;
+	}
+	legend{
+		width: 100%;
+		text-align: left;
+		position: relative;
+		right: 18px;
+	}
+	.right{
+		width: 80%;
+		position: relative;
+		right: 40px;
+	}
+	.right [type="text"],[type="number"],[type="email"]{
+		min-width: 100%;
+	}
+	.right label{
+		position: relative;
+		right: 40px;
+	}
+	textarea{
+		width: 80%;
+	}
+}
