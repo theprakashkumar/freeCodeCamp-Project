@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css?family=Chela+One|Lato:900');
+
+html body{
+	background: #BFDBFF;
+	font-family: 'Lato', sans-serif;
+}
+
+/*Navbar*/
+
+body{
+	margin: 0;
+}
+
+#header{
+	height: 70px;
+	background: #6185B2;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+#header-img{
+	position: relative;
+	top: 15px;
+	width: 35px;
+	height: 35px;
+	margin-right: 10px;
+}
+
+#nav-bar{
+	display: flex;
+	align-items: center;
+}
+
+#left-nav{
+	width: 35%;
+	margin-left: 3%; 
+	display: flex;
+}
+
+#company-name{
+	font-family: 'Chela One', cursive;
+	font-size: 2em;
+	margin-top: 10px;
+	position: relative;
+	top: 5px;
+	font-weight: 400;
+}
+
+#right-nav{
+	width: 55%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.nav-link{
+	/*For removing underline from links.*/
+	text-decoration: none;
+}
+
+#how-it-works{
+	margin: auto 50px;
+}
+
+#right-nav a{
+	color: black;
+}
+
+/*Introduction*/
+
+#intro{
+	text-align: center;
+	margin-top: 120px;
+}
+
+#email{
+	display: block;
+	border: 2px solid #6185B2;
+	padding: 5px;
+	width: 30%;
+	min-width: 170px;
+	max-width: 250px;
+	margin: 0 auto;
+	border-radius: 5px;
+}
+
+#submit{
+	display: block;
+	margin: 0 auto;
+	border: 1px solid #6185B2;
+	padding: 6px;
+	background: white;
+	margin-top: 15px;
+	width: 15%;
+	min-width: 90px;
+	max-width: 130px;
+	font-family: 'Lato', sans-serif;
+	border-radius: 5px;
+}
+
+/*Features*/
+
+#feature{
+	width: 65%;
+	min-width: 270px;
+	margin: 0 auto;
+}
+
+.feature-list{
+	display: flex;
+	margin-top: 45px;
+}
+
+/*To change the size of font-awesome icons use font-size property instead of height and width.*/
+
+.icon{
+	font-size: 40px;
+	position: relative;
+	right: 20px;
+	top: 20px;
+}
+
+#truck{
+	font-size: 25px;
+	position: relative;
+	right: 3px;
+	bottom: 3px;
+}
+
+
+/* #Video# */
+#product-video{
+    position: relative;
+    padding-top: 56.25%;
+    margin-top: -10%;
+    margin-bottom: -8%;
+}
+
+#video{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+    border: 3px black solid;
+    border-radius: 10px;
+}
+
+/*Pricing*/
+
+#product{
+
+	display: flex;
+	text-align: center;
+	max-width: 900px;
+	margin: 0 auto;
+	justify-content: space-between;
+}
+
+.material{
+	background-color: #6185B2;
+	margin-top: 0;
+	border: 0 solid black;
+	padding: 15px 0;
+	border-radius: 8px;
+}
+
+.pricing{
+	border: 2px black solid;
+	border-radius: 10px;
+	flex: 1;
+	height: 311px;
+}
+
+#royon-challis{
+	margin: 0 10px;
+}
+
+.btn{
+	background: white;
+	margin: 10px;
+	padding: 5px;
+	border: 2px solid black;
+	width: 40%;
+	border-radius: 5px;
+}
+
+/*Footer*/
+
+footer{
+	height: 80px;
+	background: #6185B2;
+	margin: 60px 0 0 0;
+	border-radius-t
+}
+
+#footer-anchor{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+	top: 18px;
+	right: 35px;
+
+}
+
+#footer-content{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+#copyright{
+	border: 0 black solid;
+	margin-left: auto;
+	position: relative;
+	top: 10px;
+    right: 35px;
+}
+
+#terms{
+	margin: 0 15px;
+}
+
+#footer-anchor a{
+	color: black;
+	text-decoration: none;
+}
+
+/*@media*/
+
+@media (max-width: 950px;){
+	#product{
+		margin: 0 10px;
+	}
+}
+
+@media (max-width: 790px){
+	#how-it-works{
+	margin: auto 25px;
+	}
+
+	#product{
+		margin: 0 10px;
+	}
+}
+
+@media (max-width: 650px){
+	#right-nav{
+		width: 50%;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+	}
+
+	#how-it-works{
+	margin: auto 0;
+	}
+
+	#header{
+		height: 75px;
+	}
+
+	#left-nav{
+		width: 40%;
+	}
+
+	#video{
+    position: absolute;
+    top: 20% !important;
+    left: 25% !important;
+    width: 55% !important;
+    height: 55% !important;
+	}
+
+	#product{
+		flex-direction: column !important;
+	}
+
+	.pricing{
+	height: 311px;
+	width: 45%;
+	min-width: 220px;
+	margin: 0 auto;
+
+}
+
+#royon-challis{
+	margin: 10px auto !important;
+}
+}
+
+@media screen and (max-width: 560px){
+	#header{
+		height: 130px;
+	}
+
+	#nav-bar{
+		flex-direction: column;
+	}
+
+	#right-nav{
+		align-items: center;
+		position: relative;
+		bottom: 10px;
+		width: 100%;
+	}
+
+	#left-nav{
+		width: 100%;
+		justify-content: center;
+	}
+
+	#intro{
+		margin-top: 150px !important;
+	}
+
+}
+
+@media (max-width: 500px){
+	.feature-list{
+		flex-direction: column !important;
+	}
+
+	.icon{
+		text-align: center;
+	}
+
+	.discription h1{
+		font-size: 1.77em !important;
+		text-align: center;
+		max-width: 249px !important;
+	}
+
+	.discription p{
+		text-align: center;
+		max-width: 249px !important;
+	}
+}
