@@ -4,7 +4,7 @@ Certification Project of freeCodeCamp
 **Responsive Web Design Projects**
 * [Tribute Page](https://codepen.io/ThePrakashKumar/full/LrwGPZ)
 * [Survey Form](https://codepen.io/ThePrakashKumar/full/LraMJq)
-* Product Landing Page
+* [Product Landing Page](https://codepen.io/ThePrakashKumar/full/bjboPE)
 * Technical Documentation Page
 * [Personal Portfolio Webpage](https://codepen.io/ThePrakashKumar/full/vaGBmE)
 
