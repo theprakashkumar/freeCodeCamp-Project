@@ -5,7 +5,7 @@ Certification Project of freeCodeCamp
 * [Tribute Page](https://codepen.io/ThePrakashKumar/full/LrwGPZ)
 * [Survey Form](https://codepen.io/ThePrakashKumar/full/LraMJq)
 * [Product Landing Page](https://codepen.io/ThePrakashKumar/full/bjboPE)
-* Technical Documentation Page
+* [Technical Documentation Page](https://codepen.io/ThePrakashKumar/full/pZjpER)
 * [Personal Portfolio Webpage](https://codepen.io/ThePrakashKumar/full/vaGBmE)
 
 **Data Visualization Projects**
