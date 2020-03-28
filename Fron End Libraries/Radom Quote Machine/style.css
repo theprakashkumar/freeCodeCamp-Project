@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Ubuntu:wght@400&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    background: rgb(245, 245, 245);
+}
+
+#root{
+    width: 700px;
+    margin: auto;
+}
+
+#quote-box{
+    margin-top : 20%;
+}
+
+#text{
+    margin-bottom: 0;
+    text-align: justify;
+}
+
+#author{
+    margin-top: 20px;
+    text-align: right;
+}
+
+#new-quote{
+    background: rgb(245, 245, 245);
+    border: black 2px solid;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    width: 130px;
+    height: 40px;
+    margin-left: 395px;
+    outline: none;
+}
+
+.fa-twitter{
+    margin-left: 40px;
+    color: black
+}
+
+.fa-whatsapp{
+    margin-left: 20px;
+    color: black
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+#new-quote:hover{
+    background: Turquoise;
+    border: Turquoise 2px solid;
+    color: white;
+}
+
+#new-quote::selection{
+    color: turquoise;
+}
+
+i:hover{
+    color: turquoise;
+}
+/* Background color change when selected. */
+p::selection{ 
+    background: turquoise; 
+}
+
+#peace-container{
+    width: 100%;
+    height: 100%;
+}
+
+#peace{
+    height: 14%;
+    width: 14%;
+    margin: 36%
+}
