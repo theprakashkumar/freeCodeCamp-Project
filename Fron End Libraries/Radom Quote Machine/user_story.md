@@ -1,7 +1,6 @@
 * This project won't pass all the FCC test every time because API's response time is not good enough and due to loading animation. 
 * If you want to pass all the test you may remove code on line 15, it will remove loading animation.
-
-
+----------------------------------------------------------------------------------------------------------------------------------------
 Front End Libraries Projects - Build a Random Quote Machine
 Objective: Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/qRZeGZ.
 
