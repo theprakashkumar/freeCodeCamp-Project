@@ -8,6 +8,13 @@ Certification Project of freeCodeCamp
 * [Technical Documentation Page](https://codepen.io/ThePrakashKumar/full/pZjpER)
 * [Personal Portfolio Webpage](https://codepen.io/ThePrakashKumar/full/vaGBmE)
 
+**Front End Libraries Projects**
+* [Random Quote Machine](https://codepen.io/ThePrakashKumar/full/GRJwBoM)
+* Markdown Previewer	
+* Drum Machine	
+* JavaScript Calculator	
+* Pomodoro Clock
+
 **Data Visualization Projects**
 * [Visualize Data with a Bar Chart](https://codepen.io/ThePrakashKumar/full/ExxovZL)
 * [Visualize Data with a Scatterplot Graph](https://codepen.io/ThePrakashKumar/full/eYmOQKG)
