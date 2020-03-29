@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Timestamp Microservice</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/client.js" defer></script>
+  </head>
+  <body>
+    <div>
+      <h1>
+        Timestamp Microservice
+      </h1>
+      <h3>
+        This microservive will convert the given time into Unix and UTC
+        timestamp!
+      </h3>
+      <hr />
+      <p>
+        In order to convert the given time, we have to visit the URL in
+        following format:
+      </p>
+      <code>[project url]/api/timestamp/[date string]</code>
+      <p>
+        Example Usage:
+      </p>
+      <a href="api/timestamp/2019-12-25"
+        >[project url]/api/timestamp/2019-12-25</a
+      >
+      <a href="/api/timestamp/1579356829"
+        >[project url]/api/timestamp/1579356829</a
+      >
+      <p>
+        Example Output:
+      </p>
+
+      <code>{"unix":1579356829,"utc":"Mon, 19 Jan 1970 06:42:36 GMT"}</code>
+    </div>
+  </body>
+</html>
