@@ -1,4 +1,4 @@
-// For some reason on CodePen emoji icon is not working(line no 23) so over there I am using:<img src="https://emoji-css.afeld.me/emoji/v.png" id="peace"/>
+// For some reason on CodePen emoji icon is not working(line no 23) so over there is am using:<img src="https://emoji-css.afeld.me/emoji/v.png" id="peace"/>
 class App extends React.Component{
     constructor(props){
         super(props);

@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;600;700&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    background: rgb(251, 251, 251);
+}
+
+/* React div that contains all the element. */
+#App{
+    display: flex;
+    width: 460px;
+    margin: 150px auto;
+    padding: 10px;
+    padding-right: 0;
+    border: 2px rgb(149, 210, 236) solid;
+    border-radius: 0px;
+}
+
+/* Div which contains all the drum pads. */
+#drum-machine{
+    width: 260px;
+    height: 260px;
+    display: grid;
+    grid-template: repeat(3, 1fr)/repeat(3, 1fr);
+    grid-gap: 8px;
+}
+
+/* Individual drum pad. */
+.drum-pad{
+    border: 2px rgb(149, 210, 236) solid;
+    font-weight: 700;
+    font-size: 50px;
+    position: relative;
+}
+
+.drum-pad:hover{
+    background: rgb(149, 210, 236);
+    cursor: pointer;
+}
+
+.selected-drum-pad{
+    background: rgb(149, 210, 236);
+}
+
+/* Text inside drum pad. */
+.drum-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: 0;
+    color: rgb(149, 210, 236);
+}
+
+.drum-pad:hover .drum-text{
+    color: white;
+}
+
+.selected-drum-text{
+    color: rgb(251, 251, 251);
+}
+
+/* Element which will display which drum has been activated. */
+#display{
+    width: 200px;
+    height: 50px;
+    font-size: 28px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 45px; 
+}
+
+/* Div contains power button, Heater Kit button and Piano button. */
+#controls-button{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 10px auto;
+}
+
+/* Icon that is inside the div `#controls-button` */
+#controls-button i{
+    cursor: pointer;
+}
+
+/* Div that contains volume slider and an span which shows the current volume. */
+#volume-slider{
+    width: 80%;
+    margin: 35px auto;
+    border: 1.5px rgb(149, 210, 236) solid;
+    padding: 4px 7px 10px 7px;
+}
+
+/* Input type=range */
+input[type=range] {
+    /*removes default webkit styles*/
+    -webkit-appearance: none;
+    width: 125px;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    height: 2.5px;
+    background: rgb(149, 210, 236);
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 13px;
+    width: 13px;
+    border-radius: 30%;
+    background: black;
+    margin-top: -5px;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]:hover::-webkit-slider-runnable-track {
+    background: black;
+    cursor: pointer;
+}
+
+/* Text element that shows volume. */
+#volume-text{
+    font-weight: 600;
+    margin-left: 2.2px;
+    position: relative;
+    top: 3px;
+}
