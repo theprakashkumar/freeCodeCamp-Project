@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css?family=Cinzel|Heebo|Open+Sans&display=swap");
+
+div {
+  max-width: 690px;
+  margin: auto;
+}
+
+h1 {
+  font-family: "Cinzel", serif;
+  color: #373fff;
+  text-align: center;
+  margin-top: 45px;
+  margin-bottom: 8px;
+}
+
+h3 {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+  font-family: "Heebo", sans-serif;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+#creation{
+  margin-top: 85px;
+}
+
+#example{
+  margin-top: 80px;
+}
+
+#redirect{
+  margin-top: 35px;
+}
+
+a {
+  display: block;
+  margin: 5px;
+  font-family: "Open Sans";
+  text-align: center;
+}
+
+code {
+  font-size: 15px;
+}
+
+code:nth-of-type(2) {
+  display: block;
+  text-align: center;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
+}
+
+#bottom-link{
+  display: block;
+  text-align: center;
+}
+
+form{
+  text-align: center;
+}
+
+#url_input{
+  height: 25px;
+  width: 300px;
+  border: #373fff 2px solid;
+  border-radius: 5px;
+  outline: none;
+  font-family: "Heebo", sans-serif;
+  font-size: 15px;
+  padding-left: 5px;
+}
+
+#submit{
+  border: #373fff 2px solid;
+  background: white;
+  outline: none;
+  height: 29px; 
+  width: 100px;
+  font-size: 15px;
+  color: #373fff;
+  border-radius: 5px;
+  font-family: "Heebo", sans-serif;
+}

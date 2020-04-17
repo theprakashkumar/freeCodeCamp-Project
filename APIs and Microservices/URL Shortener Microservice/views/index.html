@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>URL Shortener</title>
+    <link href="/public/style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <div>
+      <h1>URL Shortener Microservice</h1>
+      <hr />
+      <h3>
+        This microservive will shortened the received link and when user visit
+        the shortened link, they will be directed to original link. If the link
+        is invalid user gets response <code>{"eror": "invalid URL"}</code>
+      </h3>
+      <p id="creation">Short URL Creation:</p>
+      <form action="api/shorturl/new" method="POST">
+        <input
+          id="url_input"
+          type="text"
+          name="url"
+          placeholder="URL to be shortened"
+        />
+        <input id="submit" type="submit" value="Submit" />
+      </form>
+      <p id="example">Example Usage:</p>
+      <a href="https://fcc--url--shortener--microservice.glitch.me/api/shorturl/0">
+        https://fcc--url--shortener--microservice.glitch.me/api/shorturl/0
+      </a>
+
+      <p id="redirect">Will Redirect to:</p>
+      <code id="bottom-link">https://prakashkumar.me</code>
+    </div>
+  </body>
+</html>
