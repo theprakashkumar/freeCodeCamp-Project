@@ -25,6 +25,6 @@ Certification Project of freeCodeCamp
 **APIs and Microservices Projects**
 * [Timestamp Microservice](https://fcc--timestamp--microservice.glitch.me)
 * [Request Header Parser Microservice](https://fcc--request--header--parser--microservice.glitch.me/)
-* URL Shortener Microservice
+* [URL Shortener Microservice](https://fcc--url--shortener--microservice.glitch.me/)
 * Exercise Tracker
 * File Metadata Microservice
