@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;600;700&display=swap');
+
+:root{
+    --main-color: #050323;
+    --secondary-color: #01ffe3;
+}
+
+body{
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    background: rgb(251, 251, 251);
+}
+
+/* Main div that contains all the elements. */
+#app{
+    width: 260px;
+    margin: 150px auto;
+    padding: 10px;
+    border: 2px var(--main-color) solid;
+    background: var(--secondary-color);
+    box-shadow: 5px 5px 0px 0px var(--main-color);
+}
+
+/* Div that shows output. */
+#display{
+    width: 260px;
+    height: 50px;
+    font-size: 21px;
+    font-weight: 700;
+    text-align: right;
+    border: 2px solid var(--main-color);
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+/* Span which contains the text of `#display` */
+#display-text{
+    height: 50px;
+    line-height: 50px;
+    white-space: nowrap;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+/* Div which contains all the drum pads. */
+#buttons{
+    width: 260px;
+    height: 265px;
+    display: grid;
+    grid-template: repeat(5, 1fr)/repeat(4, 1fr);
+    grid-gap: 8px;
+    margin: auto;
+}
+
+/* Individual button. */
+.button{
+    border: 1.5px var(--main-color) solid;
+    font-size: 25px;
+    position: relative;
+}
+
+.button:hover{
+    background: var(--main-color);
+    cursor: pointer;
+}
+
+/* Button which has zero text on it. */
+#zero{
+    grid-column: 1 / 3;
+}
+
+/* Text inside each button. */
+.button-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-weight: 700;
+    transform: translate(-50%, -50%);
+    color: var(--main-color);
+}
+
+.button:hover .button-text{
+    color: var(--secondary-color);
+}
