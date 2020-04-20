@@ -12,7 +12,7 @@ Certification Project of freeCodeCamp
 * [Random Quote Machine](https://codepen.io/ThePrakashKumar/full/GRJwBoM)
 * [Markdown Previewer](https://codepen.io/ThePrakashKumar/full/MWwZzvx)	
 * [Drum Machine](https://codepen.io/ThePrakashKumar/full/dyYbdmX)
-* JavaScript Calculator	
+* [JavaScript Calculator](https://codepen.io/ThePrakashKumar/full/jObqZJb)
 * Pomodoro Clock
 
 **Data Visualization Projects**
