@@ -24,7 +24,7 @@ class App extends React.Component{
     let {operation, display, finalResult}=this.state;
     if(operation=="" && finalResult!==""){
       this.setState(st => ({finalResult: "", display: st.display+num}));
-    }else if(display.length<15){
+    }else if(display.length<13){
       this.setState(st => ({display: st.display+num}));
     }else{
       console.log("Digit Limit Met");
