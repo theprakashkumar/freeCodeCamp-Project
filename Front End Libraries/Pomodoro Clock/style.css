@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Montserrat:wght@200;300&family=Roboto:wght@100&display=swap');
+
+body{
+    background: #090a26;
+    color: #f33462;
+}
+
+/* Heading */
+#heading{
+    font-family: 'Roboto', sans-serif;  
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Div that contains  */
+#control-container{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Manrope', sans-serif;
+    margin: 10px auto;
+}
+
+/* Label of `#control-container` heading */
+#session-label, #break-label{
+    font-size: 25px;
+    margin-bottom: 13px;
+}
+/* Div inside `#control-container` which controls the length */
+.buttons-indicator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+/* Div inside `#control-container` which show the length */
+#session-length, #break-length{
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    background: hsl(237, 45%, 16%);
+    border-radius: 50%;
+    position: relative;
+}
+
+/* Span inside `#session-length` and `#break-length`*/
+.control-length{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Div contains timer */
+#timer-div{
+    margin: 50px auto 10px auto;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    border: 2px solid #f33462;
+    border-radius:  50%;
+    width: 220px;
+    height: 220px;
+    box-shadow: 0px 0px 10px 10px hsl(237, 45%, 16%);
+}
+
+/* P tag inside div `#timer-div` which shows label of timer(session/break) */
+#timer-label{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 0px;
+}
+
+/* P tag inside div `#timer-dev` which show the time left */
+#time-left{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* Div that contains the toggle(play, pause and reset) div */
+#toggle-div{
+    display: flex;
+    width: 80px;
+    justify-content: space-around;
+    margin: 25px auto;
+    font-size: 20px;
+}
+
+/* All the icons */
+i:hover{
+    color: rgb(159, 159, 230);
+    cursor: pointer;
+}
