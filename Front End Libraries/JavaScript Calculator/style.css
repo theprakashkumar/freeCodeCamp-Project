@@ -14,7 +14,7 @@ body{
 /* Main div that contains all the elements. */
 #app{
     width: 260px;
-    margin: 150px auto;
+    margin: 100px auto;
     padding: 10px;
     border: 2px var(--main-color) solid;
     background: var(--secondary-color);
