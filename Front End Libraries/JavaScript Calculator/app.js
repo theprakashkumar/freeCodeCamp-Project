@@ -33,8 +33,12 @@ class App extends React.Component{
 
   // Update display with zero.
   addZeroToDisplay(){
-    if(this.state.display!=="0"){
+    if(this.state.display.length<13){
+      if(this.state.display!=="0"){
       this.setState(st => ({display: st.display+"0"}));
+      }
+    }else{
+      console.log("Digit Limit Met");
     }
   }
 
