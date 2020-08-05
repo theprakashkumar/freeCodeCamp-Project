@@ -7,7 +7,7 @@ var cors = require("cors");
 var bodyParser = require("body-parser");
 const dns = require("dns");
 
-// Require dotenv for acceess data from .env file in local enviroment.
+// Require dotenv for access data from .env file in local environment.
 // No need to do this for development on online platform like Glitch.
 require('dotenv').config();
 
