@@ -16,7 +16,7 @@
 		"helmet": "^3.23.3",
 		"mocha": "^8.2.1",
 		"mongoose": "^5.11.15",
-		"node-fetch": "^2.6.1"
+		"node-fetch": "^2.6.7"
 	},
 	"repository": {
 		"type": "git",
