@@ -15,7 +15,7 @@
 		"express": "^4.14.0",
 		"helmet": "^3.23.3",
 		"mocha": "^8.2.1",
-		"mongoose": "^5.11.15",
+		"mongoose": "^5.13.15",
 		"node-fetch": "^2.6.1"
 	},
 	"repository": {
